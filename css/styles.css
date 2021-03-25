@@ -929,7 +929,7 @@ img {
 
 .modal-form-term:checked + .modal-form-check-desk::before {
   background-color: var(--accent-color);
-  background-image: url(../image/ICONS/Vector2.svg);
+  background-image: url(../image/ICONS/Vector.svg);
   background-position: center;
   border: 2px solid var(--accent-color);
 }
