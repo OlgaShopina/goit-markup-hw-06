@@ -787,6 +787,8 @@ img {
 }
 /*==========END FOOTER==========*/
 
+/*==========MODAL-WINDOW==========*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -980,3 +982,5 @@ img {
 .link-contract {
   color: var(--accent-color);
 }
+
+/*==========END MODAL-WINDOW==========*/
