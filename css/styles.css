@@ -822,6 +822,12 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: var(--accent-color);
 }
 
 .close-icon {
@@ -840,6 +846,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
+  margin-bottom: 10px;
 }
 
 .modal-form-title {
@@ -887,7 +894,6 @@ img {
   display: block;
   position: relative;
   margin-top: 4px;
-  margin-bottom: 10px;
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -932,6 +938,11 @@ img {
   background-image: url(../image/ICONS/Vector.svg);
   background-position: center;
   border: 2px solid var(--accent-color);
+}
+
+.modal-form-term:focus + .modal-form-check-desk::before {
+  border: 1px solid var(--accent-color);
+  border-radius: 2px;
 }
 
 .modal-form-check-desk {
