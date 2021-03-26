@@ -940,6 +940,7 @@ img {
   background-image: url(../image/ICONS/Vector.svg);
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 2px var(--accent-color);
 }
 
 .modal-form-term:focus + .modal-form-check-desk::before {
